@@ -1,0 +1,2199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="CCDA.xsl" type="text/xsl"?><ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <realmCode code="US"/>
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.1"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.2"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+    <id root="d2c3367b-0adc-445d-97d2-0535e4b2ef61"/>
+    <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" displayName="Summarization of Episode Note"/>
+    <title>Data Portability</title>
+    <effectiveTime value="20230526150025-0500"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en-US"/>
+    <recordTarget>
+        <patientRole>
+            <id extension="a-15749.E-126421362" root="2.16.840.1.113883.3.564"/>
+            <addr use="HP">
+                <streetAddressLine>201 WESTSIDE SCHOOL ROAD</streetAddressLine>
+                <city>NEWNAN</city>
+                <state>GA</state>
+                <postalCode>30263</postalCode>
+                <country>USA</country>
+            </addr>
+            <addr use="PST">
+                <streetAddressLine>201 WESTSIDE SCHOOL ROAD</streetAddressLine>
+                <city>NEWNAN</city>
+                <state>GA</state>
+                <postalCode>30263</postalCode>
+                <country>USA</country>
+            </addr>
+            <telecom use="HP" value="tel:+1-(678) 949-6799"/>
+            <telecom use="MC" value="tel:+1-(678) 949-6799"/>
+            <patient>
+                <name use="L">
+                    <given>Carl</given>
+                    <given>D</given>
+                    <family>Williams</family>
+                </name>
+                <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" displayName="Male"/>
+                <birthTime value="19660704"/>
+                <maritalStatusCode code="M" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode" displayName="Married"/>
+                <raceCode codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" nullFlavor="NI"/>
+                <ethnicGroupCode codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" nullFlavor="NI"/>
+                <languageCommunication>
+                    <languageCode nullFlavor="NI"/>
+                </languageCommunication>
+            </patient>
+            <providerOrganization>
+                <id root="2.16.840.1.113883.4.6"/>
+                <name>GA - United Musculoskeletal Partners</name>
+                <telecom use="WP" value="tel: (770) 944-1100"/>
+                <addr use="WP">
+                    <streetAddressLine>2041 Mesa Valley Way,</streetAddressLine>
+                    <streetAddressLine>Suite 100</streetAddressLine>
+                    <city>Austell</city>
+                    <state>GA</state>
+                    <postalCode>30106-6856</postalCode>
+                    <country>USA</country>
+                </addr>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="20230526150025-0500"/>
+        <assignedAuthor>
+            <id root="2.16.840.1.113883.3.564"/>
+            <addr use="WP">
+                <streetAddressLine>311 Arsenal St</streetAddressLine>
+                <city>Watertown</city>
+                <state>MA</state>
+                <postalCode>02472</postalCode>
+                <country>US</country>
+            </addr>
+            <telecom use="WP" value="tel:+1-617-4021000"/>
+            <assignedAuthoringDevice>
+                <manufacturerModelName>athenahealth</manufacturerModelName>
+                <softwareName>Document Generation Engine</softwareName>
+            </assignedAuthoringDevice>
+            <representedOrganization>
+                <id extension="15749" root="7eff6d36-5583-4ba6-8928-30c0968a05cd"/>
+                <name>GA - United Musculoskeletal Partners, Austell</name>
+                <telecom use="WP" value="tel: (770) 944-1100"/>
+                <addr use="WP">
+                    <streetAddressLine>2041 Mesa Valley Way,</streetAddressLine>
+                    <streetAddressLine>Suite 100</streetAddressLine>
+                    <city>Austell</city>
+                    <state>GA</state>
+                    <postalCode>30106-6856</postalCode>
+                    <country>USA</country>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id root="2.16.840.1.113883.3.564"/>
+                <name>athenahealth</name>
+                <telecom use="WP" value="tel:+1-617-4021000"/>
+                <addr use="WP">
+                    <streetAddressLine>311 Arsenal St</streetAddressLine>
+                    <city>Watertown</city>
+                    <state>MA</state>
+                    <postalCode>02472</postalCode>
+                    <country>US</country>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <documentationOf>
+        <serviceEvent classCode="PCPR">
+            <effectiveTime>
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <templateId root="2.16.840.1.113883.10.20.6.2.1"/>
+                <functionCode code="3" displayName="Primary Care Provider"/>
+                <assignedEntity>
+                    <id root="2.16.840.1.113883.4.6"/>
+                    <code codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC" nullFlavor="NI"/>
+                    <addr use="WP">
+                        <streetAddressLine>51 HOSPITAL RD</streetAddressLine>
+                        <city>NEWNAN</city>
+                        <state>GA</state>
+                        <postalCode>30263</postalCode>
+                        <country>US</country>
+                    </addr>
+                    <telecom use="WP" value="tel: (770) 251-5540"/>
+                    <assignedPerson>
+                        <name>
+                            <given>CECIL</given>
+                            <family>BENNETT</family>
+                        </name>
+                    </assignedPerson>
+                    <representedOrganization>
+                        <id root="2545084a-f8d8-4e99-b41d-1cb91ea33be2"/>
+                        <name nullFlavor="NI"/>
+                        <telecom use="WP" value="tel: (770) 251-5540"/>
+                        <addr use="WP">
+                            <streetAddressLine>51 HOSPITAL RD</streetAddressLine>
+                            <city>NEWNAN</city>
+                            <state>GA</state>
+                            <postalCode>30263</postalCode>
+                            <country>US</country>
+                        </addr>
+                    </representedOrganization>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.8"/>
+                    <id root="586250ea-895c-491b-836b-f4b2593934ed"/>
+                    <code code="51848-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Assessment"/>
+                    <title>Assessment</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Encounter Date</th>
+                                    <th>Assessment Date</th>
+                                    <th>Assessment</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule">
+                                        Patient comes in today for evaluation of low back pain. He states that it occurs in both of his buttocks and travels up into his back. He has to sit on the hard surface for relief. He states that this is been ongoing since 1999. He does not remember whether he has had injections or not but he is in a pain management clinic. He takes oxycodone for pain relief. His pain is a constant 10 out of 10 described as sharp, stabbing, burning with stiffness. It is worse in all activity except for lying down that does improve it somewhat. He reports nocturnal disturbance as well. 
+                                        <br/>
+                                        <br/>
+                                         Past Medical History, Family History, Personal and Social History and Review of Systems were reviewed with the patient and included in the chart. 
+                                        <br/>
+                                        <br/>
+                                         Negative for fecal or urinary incontinence. Negative for abdominal pain. Negative for dyspnea. Negative for fevers, chills, night sweats or unintentional weight loss over the past 3 months. All other 14 Review of Systems are negative unless otherwise stated. 
+                                        <br/>
+                                        <br/>
+                                         The lumbar spine integument reveals no scars, lesions, rashes or café au lait spots. He has hypersensitivity to light palpation of the lumbar spine and bilateral SI joints. 
+                                        <br/>
+                                        <br/>
+                                         On physical exam the patient is in no acute distress. Bilateral lower extremity strength is 5 out of 5. Deep tendon reflexes 2+ equal and symmetric. Sensation is intact in all dermatomal distributions. No groin or buttock pain with internal or external rotation of the hips bilaterally. Pedal pulse 2+. 
+                                        <br/>
+                                        <br/>
+                                         Patient has positive Faber, positive thigh thrust, positive compression,, positive distraction. Gaenslen's was deferred due to the significant pain elicited from physical examination. 
+                                        <br/>
+                                        <br/>
+                                         Antalgic gait. 
+                                        <br/>
+                                        <br/>
+                                         1 view AP pelvis ordered, performed and interpreted by myself Dr. Goins in the office today show degenerative change within the SI joints bilaterally. At the hip articulations appear unremarkable. 
+                                        <br/>
+                                        <br/>
+                                         MRI lumbar spine viewed in epic dated 11/16/2021 read and interpreted by myself and Dr. Goins in the office today show no significant nerve root impingement. There is foraminal stenosis at L3-4 and L4-L5. 
+                                        <br/>
+                                        <br/>
+                                         Plan: It is my impression the patient is experiencing sacroiliac pain. I recommend diagnostic and therapeutic intra-articular SI injections bilaterally. 
+                                        <br/>
+                                        <br/>
+                                         Risks and benefits of the injection were reviewed with the patient in detail. They include, but are not limited to, injection site reaction, neurovascular injury, infection, failure to obtain pain relief, increase in pain. The patient conveyed verbal understanding and wishes to proceed. 
+                                        <br/>
+                                        <br/>
+                                         I will send a referral to his pain management clinic for this treatment. 
+                                        <br/>
+                                        <br/>
+                                         I conveyed to the patient that other than mild stenosis in his lumbar spine I see no significant neural impingement no significant arthropathy or disc degeneration to correlate with his back pain. 
+                                        <br/>
+                                        <br/>
+                                         Absolutely no lumbar surgery is indicated. 
+                                        <br/>
+                                        <br/>
+                                         If he responds favorably to sacroiliac injections I would recommend advanced imaging of the SI joints and we could consider SI fusion. 
+                                        <br/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.10"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+                    <id root="ccf99de0-40dd-4445-943b-ac8f2cd679b4"/>
+                    <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Plan of Treatment</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Reminders</th>
+                                    <th/>
+                                    <th>Order Date</th>
+                                    <th>Submit Date</th>
+                                    <th>Provider</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content styleCode="Bold">Appointments</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+    None recorded.
+  </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content styleCode="Bold">Lab</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+    None recorded.
+  </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content styleCode="Bold">Referral</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="PlanOfCareAct1">pain management referral</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+    12/17/2021
+  </td>
+                                    <td styleCode="Botrule">
+    
+      12/17/2021
+    
+  </td>
+                                    <td styleCode="Botrule">
+    Gregory O Zakers MD, 550 Fairburn Rd SW, Ste B4, Atlanta, GA, 30331, Ph (404) 565-5480</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content styleCode="Bold">Procedures</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+    None recorded.
+  </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content styleCode="Bold">Surgeries</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+    None recorded.
+  </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content styleCode="Bold">Imaging</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="PlanOfCareAct2">XR, pelvis, 1 or 2 view</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+    12/17/2021
+  </td>
+                                    <td styleCode="Botrule">
+    
+      12/17/2021
+    
+  </td>
+                                    <td styleCode="Botrule">
+    Resurgens Imaging, 5671 Peachtree Dunwoody Rd NE, Ste 900, Atlanta, GA, 30342, Ph (404) 531-8591</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content styleCode="Bold">Medication Orders</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+    None recorded.
+  </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>
+                        <content>Patient Targets</content>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Encounter Date</th>
+                                    <th>Instructions</th>
+                                    <th>Goals</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <encounter classCode="ENC" moodCode="INT">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.40"/>
+                            <id root="59aff2ef-2199-45d4-9c06-8b7873c8234a"/>
+                            <code displayName="pain management referral" nullFlavor="NI">
+                                <originalText>
+                                    <reference value="#PlanOfCareAct"/>
+                                </originalText>
+                            </code>
+                            <text>pain management referral</text>
+                            <statusCode code="active"/>
+                            <effectiveTime value="20211217"/>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="11370031" root="2.16.840.1.113883.4.7"/>
+                                    <representedOrganization>
+                                        <name>Gregory O Zakers MD</name>
+                                        <telecom use="WP" value="tel:(404) 565-5480"/>
+                                        <addr>
+                                            <streetAddressLine>550 Fairburn Rd SW Ste B4</streetAddressLine>
+                                            <city>Atlanta</city>
+                                            <state>GA</state>
+                                            <postalCode>30331</postalCode>
+                                        </addr>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                        </encounter>
+                    </entry>
+                    <entry>
+                        <procedure classCode="PROC" moodCode="INT">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.41"/>
+                            <id root="88f1f72c-79c7-4cf3-8539-a3bc9512f515"/>
+                            <code code="43522-2" codeSystemName="LOINC" displayName="XR Pelvis 1 or 2 Views"/>
+                            <effectiveTime value="20211217"/>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="12741432" root="2.16.840.1.113883.4.7"/>
+                                    <representedOrganization>
+                                        <name>Resurgens Imaging</name>
+                                        <telecom use="WP" value="tel:(404) 531-8591"/>
+                                        <addr>
+                                            <streetAddressLine>5671 Peachtree Dunwoody Rd NE Ste 900</streetAddressLine>
+                                            <city>Atlanta</city>
+                                            <state>GA</state>
+                                            <postalCode>30342</postalCode>
+                                        </addr>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                        </procedure>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2014-06-09" root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+                    <id root="2493e08b-b37b-41f9-b1e0-4772b35c08a9"/>
+                    <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Reason for Referral</title>
+                    <text>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        Pain Management Referral for Sacroiliac joint pain
+                                        <br/>
+                                        current patient.  Bilateral SI injections.
+                                        <br/>
+                                        <br/>
+                                        Referring Physician: Spencer Rowland, Orthopedic Surgery, (770) 461-1238
+                                        <br/>
+                                        Encounter Date: 12/17/2021
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.3.1"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+                    <id root="9b20d50b-3d2d-414f-8369-d08f7c8102e8"/>
+                    <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Results</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Created Date</th>
+                                    <th>Observation Date</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Value</th>
+                                    <th>Unit</th>
+                                    <th>Range</th>
+                                    <th>Abnormal Flag</th>
+                                    <th>Provider Detail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">XR, pelvis, 1 or 2 view</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">
+                                        <content ID="result27610621"> No observation recorded.</content>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">
+                                        Resurgens Imaging
+                                        <br/>
+                                        5671 Peachtree Dunwoody Rd NE Ste 900, Atlanta, GA, 30342, Ph (404) 531-8591
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>
+                        <content>Result Notes</content>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Documentation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td ID="clinicalnotes2" styleCode="Botrule">Xr, Pelvis, 1 Or 2 View : StudyInstanceUID=1.2.840.113837.369380135.1639766957.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <organizer classCode="BATTERY" moodCode="EVN">
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.1"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                            <id root="3cd21313-aa80-4b65-9b51-a6810a4c6d46"/>
+                            <code code="43522-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE">
+                                <translation codeSystemName="Imaging Result Description" displayName="XR, pelvis, 1 or 2 view"/>
+                            </code>
+                            <statusCode code="completed"/>
+                            <effectiveTime nullFlavor="NI"/>
+                            <author>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id root="2.16.840.1.113883.4.7"/>
+                                    <representedOrganization>
+                                        <name>Resurgens Imaging</name>
+                                        <telecom use="WP" value="tel:(404) 531-8591"/>
+                                        <addr>
+                                            <streetAddressLine>5671 Peachtree Dunwoody Rd NE Ste 900 </streetAddressLine>
+                                            <city>Atlanta</city>
+                                            <state>GA</state>
+                                            <postalCode>30342</postalCode>
+                                        </addr>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id root="e05ba45b-4d28-4319-a48a-468c1eaaba48"/>
+                                    <code nullFlavor="NI" xsi:type="CE"/>
+                                    <text>
+                                        <reference value="#result27610621"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime nullFlavor="NI"/>
+                                    <value nullFlavor="NI" xsi:type="CD"/>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                            <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                                <translation code="18748-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Imaging Narrative"/>
+                            </code>
+                            <text mediaType="text/rtf" representation="B64">
+                                            WHIsIFBlbHZpcywgMSBPciAyIFZpZXcgOiBTdHVkeUluc3RhbmNlVUlEPTEuMi44NDAuMTEzODM3LjM2OTM4MDEzNS4xNjM5NzY2OTU3LjI=
+          
+                                <reference value="#clinicalnotes2"/>
+                            </text>
+                            <statusCode code="current"/>
+                            <effectiveTime value="20211217135836-0500"/>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time value="20211217135836-0500"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="f5cf9d85-0e1a-4170-aef4-61b7e6397d04"/>
+                                        <name>AthenaHealth</name>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.5.1"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+                    <id root="12e0549d-99d1-48b1-9a1c-79065c80ce5b"/>
+                    <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problems"/>
+                    <title>Problems</title>
+                    <text>
+      None Reported
+      </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.7.1"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+                    <id root="93608c71-7714-43b8-8f8a-801e6994f103"/>
+                    <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Procedures</title>
+                    <text>
+                        <content>Surgical History</content>
+                        <paragraph>None recorded.</paragraph>
+                        <br/>
+                        <content>Imaging Results</content>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Imaging Date</th>
+                                    <th>Name</th>
+                                    <th>Performed by</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule"> 12/17/2021 </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="ProcImg27610621">XR, pelvis, 1 or 2 view</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <br/>
+                                    </td>
+                                    <td styleCode="Botrule">completed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>
+                        <content>Procedure Notes</content>
+                        <paragraph>None recorded.</paragraph>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.13"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.13"/>
+                            <id root="b0a20671-75ec-4366-b02f-f6475010648e"/>
+                            <code code="43522-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="XR, pelvis, 1 or 2 view" xsi:type="CE"/>
+                            <text>
+                                <reference value="#ProcImg27610621"/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20211217"/>
+                            <value nullFlavor="NI" xsi:type="CD"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.23"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.23"/>
+                    <id root="ac3dc649-4925-4dc4-9971-4ce226a95d15"/>
+                    <code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medical Equipment"/>
+                    <title>Medical Equipment</title>
+                    <text>
+      None Reported.
+      </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.13"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.13"/>
+                            <id root="22b11d75-5199-4b83-a38c-acac390b385b"/>
+                            <code nullFlavor="NI"/>
+                            <statusCode code="active"/>
+                            <effectiveTime nullFlavor="NI"/>
+                            <value nullFlavor="NI" xsi:type="CD"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6.1"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+                    <id root="e50bc982-30ad-49e7-a9ce-9cb8aa05076f"/>
+                    <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+                    <title>Allergies</title>
+                    <text>
+    
+      No known drug allergies
+    
+  </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <!-- Allergy Concern Act -->
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.30"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+                            <id root="cec889bc-2c9d-4637-9450-8ee8135708e1"/>
+                            <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="NI"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                                    <!-- Allergy observation -->
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.7"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                                    <id root="e88b8e63-bffc-4a74-b765-e07756f2b04d"/>
+                                    <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="NI"/>
+                                    </effectiveTime>
+                                    <value code="416098002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Allergy to drug" xsi:type="CD">
+                                        <originalText>
+                                            <reference value="#allergy"/>
+                                        </originalText>
+                                    </value>
+                                    <participant typeCode="CSM">
+                                        <participantRole classCode="MANU">
+                                            <playingEntity classCode="MMAT">
+                                                <code nullFlavor="NI"/>
+                                            </playingEntity>
+                                        </participantRole>
+                                    </participant>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.1.1"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+                    <id root="51847029-9e33-4aea-93e3-f3d98780ab36"/>
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Medication Use"/>
+                    <title>Medications</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Sig</th>
+                                    <th>Start Date</th>
+                                    <th>Stop Date</th>
+                                    <th>Status</th>
+                                    <th>Note</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Name-c9eee626-aa3a-4fcd-b621-f9a631d578fe">
+                    furosemide 40 mg tablet
+                  </content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Sig-c9eee626-aa3a-4fcd-b621-f9a631d578fe">Take 1 tablet every day by oral route.</content>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">active</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Name-f1f360e4-bd6f-4b7b-9775-fd550823575d">
+                    atorvastatin 20 mg tablet
+                  </content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Sig-f1f360e4-bd6f-4b7b-9775-fd550823575d">Take 1 tablet every day by oral route.</content>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">active</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Name-b0ffcbef-983a-4c14-bfa1-211e25a610e0">
+                    oxycodone 30 mg tablet
+                  </content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Sig-b0ffcbef-983a-4c14-bfa1-211e25a610e0">Take 1 tablet every 6 hours by oral route.</content>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">active</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Name-24ee3ac8-5174-40cc-938f-b6e7de579efa">
+                    isosorbide mononitrate
+                  </content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Sig-24ee3ac8-5174-40cc-938f-b6e7de579efa"/>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">active</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Name-a8b0807b-9c51-4b9f-804e-d0360b8c37bd">
+                    metoprolol succinate
+                  </content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Sig-a8b0807b-9c51-4b9f-804e-d0360b8c37bd"/>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">active</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Name-e2770848-0ce6-49aa-b75c-86795da7caf6">
+                    Entresto 97 mg-103 mg tablet
+                  </content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Sig-e2770848-0ce6-49aa-b75c-86795da7caf6">Take 1 tablet twice a day by oral route.</content>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">active</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Name-4f5717f9-9c3d-49bb-9803-7f940fdd2e48">
+                    ergocalciferol (vitamin D2) 50 mcg (2,000 unit) capsule
+                  </content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="Med-Sig-4f5717f9-9c3d-49bb-9803-7f940fdd2e48">Take by oral route.</content>
+                                    </td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">active</td>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="0bc8d3b9-4558-472b-aaa6-475717977d75"/>
+                            <text>
+              Take 1 tablet every day by oral route.
+            </text>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="NI"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code code="313988" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="furosemide 40 mg tablet">
+                                            <originalText>
+                                                <reference value="#Med-Name-c9eee626-aa3a-4fcd-b621-f9a631d578fe"/>
+                                            </originalText>
+                                            <translation code="152894" codeSystemName="FDB MEDID"/>
+                                        </code>
+                                        <name>furosemide 40 mg tablet</name>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>emorey1</given>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="38c35f9e-9542-4904-8fc2-5e2a6f0a533c"/>
+                                        <name/>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                                    <text/>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147"/>
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions"/>
+                                    <text>
+                                        <reference value="#Med-Sig-c9eee626-aa3a-4fcd-b621-f9a631d578fe"/>
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="669fde60-646f-49b2-aa51-720adc30bb1c"/>
+                            <text>
+              Take 1 tablet every day by oral route.
+            </text>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="NI"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code code="617310" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="atorvastatin 20 mg tablet">
+                                            <originalText>
+                                                <reference value="#Med-Name-f1f360e4-bd6f-4b7b-9775-fd550823575d"/>
+                                            </originalText>
+                                            <translation code="163181" codeSystemName="FDB MEDID"/>
+                                        </code>
+                                        <name>atorvastatin 20 mg tablet</name>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>emorey1</given>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="d36f544e-2333-49a5-86ff-32c0faa48398"/>
+                                        <name/>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                                    <text/>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147"/>
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions"/>
+                                    <text>
+                                        <reference value="#Med-Sig-f1f360e4-bd6f-4b7b-9775-fd550823575d"/>
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="cce9cc7f-82fd-4146-ae51-fbe1731f0e21"/>
+                            <text>
+              Take 1 tablet every 6 hours by oral route.
+            </text>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="NI"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code code="1049618" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="oxycodone 30 mg tablet">
+                                            <originalText>
+                                                <reference value="#Med-Name-b0ffcbef-983a-4c14-bfa1-211e25a610e0"/>
+                                            </originalText>
+                                            <translation code="272950" codeSystemName="FDB MEDID"/>
+                                        </code>
+                                        <name>oxycodone 30 mg tablet</name>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>emorey1</given>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="9d9fa06d-a8ef-48c4-a9c0-0c00a2cfb179"/>
+                                        <name/>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                                    <text/>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147"/>
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions"/>
+                                    <text>
+                                        <reference value="#Med-Sig-b0ffcbef-983a-4c14-bfa1-211e25a610e0"/>
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="1650ef3d-7e41-4ba7-aa91-fb734e7c5d2a"/>
+                            <text/>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="NI"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code nullFlavor="OTH">
+                                            <originalText>
+                                                <reference value="#Med-Name-24ee3ac8-5174-40cc-938f-b6e7de579efa"/>
+                                            </originalText>
+                                            <translation codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="isosorbide mononitrate" nullFlavor="NI"/>
+                                        </code>
+                                        <name/>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>emorey1</given>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="a384c75b-45f8-4021-b901-321c817439ab"/>
+                                        <name/>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                                    <text/>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147"/>
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions"/>
+                                    <text>
+                                        <reference value="#Med-Sig-24ee3ac8-5174-40cc-938f-b6e7de579efa"/>
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="0ed48dd5-e90d-4435-8b21-e26a91016a0c"/>
+                            <text/>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="NI"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code nullFlavor="OTH">
+                                            <originalText>
+                                                <reference value="#Med-Name-a8b0807b-9c51-4b9f-804e-d0360b8c37bd"/>
+                                            </originalText>
+                                            <translation codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="metoprolol succinate" nullFlavor="NI"/>
+                                        </code>
+                                        <name/>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>emorey1</given>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="e56db987-328a-4fc2-bba3-7087efde6282"/>
+                                        <name/>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                                    <text/>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147"/>
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions"/>
+                                    <text>
+                                        <reference value="#Med-Sig-a8b0807b-9c51-4b9f-804e-d0360b8c37bd"/>
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="42a04894-1ad6-46d1-9ee2-cfeca9e6a694"/>
+                            <text>
+              Take 1 tablet twice a day by oral route.
+            </text>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="NI"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code code="1656356" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Entresto 97 mg-103 mg tablet">
+                                            <originalText>
+                                                <reference value="#Med-Name-e2770848-0ce6-49aa-b75c-86795da7caf6"/>
+                                            </originalText>
+                                            <translation code="586525" codeSystemName="FDB MEDID"/>
+                                        </code>
+                                        <name>Entresto 97 mg-103 mg tablet</name>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>emorey1</given>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="237e3090-450b-4e7f-9a22-faa3fc321eca"/>
+                                        <name/>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                                    <text/>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147"/>
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions"/>
+                                    <text>
+                                        <reference value="#Med-Sig-e2770848-0ce6-49aa-b75c-86795da7caf6"/>
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="5a8993b7-7e8b-43e5-bcad-f7ffbf19d828"/>
+                            <text>
+              Take by oral route.
+            </text>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="NI"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code code="2044659" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="ergocalciferol (vitamin D2) 50 mcg (2,000 unit) capsule">
+                                            <originalText>
+                                                <reference value="#Med-Name-4f5717f9-9c3d-49bb-9803-7f940fdd2e48"/>
+                                            </originalText>
+                                            <translation code="598799" codeSystemName="FDB MEDID"/>
+                                        </code>
+                                        <name>ergocalciferol (vitamin D2) 50 mcg (2,000 unit) capsule</name>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time nullFlavor="NI"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>emorey1</given>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="1a75bb63-1c57-401e-a28c-4401bf6ea129"/>
+                                        <name/>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                                    <text/>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147"/>
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions"/>
+                                    <text>
+                                        <reference value="#Med-Sig-4f5717f9-9c3d-49bb-9803-7f940fdd2e48"/>
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.4.1"/>
+                    <id root="3e73d682-a311-40e9-a913-c02d5565079c"/>
+                    <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
+                    <title>Vitals</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Date Recorded</th>
+                                    <th>Body height</th>
+                                    <th>Body mass index (BMI)</th>
+                                    <th>Body weight</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule">
+                                        <content ID="vital1">170.18 cm</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="vital2">30.9 kg/m2</content>
+                                    </td>
+                                    <td styleCode="Botrule">
+                                        <content ID="vital3">89357.7 g</content>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.26"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+                            <id root="97aacf3b-b0f0-489d-9ae8-95c4842aa960"/>
+                            <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs">
+                                <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital signs, weight, height, head circumference, oximetry, BMI, and BSA panel"/>
+                            </code>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20211217"/>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id root="b43cb490-70e9-4800-9826-b8663b87c31a"/>
+                                    <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LONIC" displayName="Body height"/>
+                                    <text>
+                                        <reference value="#vital1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20211217"/>
+                                    <value unit="cm" value="170.18" xsi:type="PQ"/>
+                                    <author>
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                        <time value="20211217133008-0500"/>
+                                        <assignedAuthor>
+                                            <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                            <assignedPerson>
+                                                <name>
+                                                    <given>Eric Morey</given>
+                                                    <family>Morey</family>
+                                                </name>
+                                            </assignedPerson>
+                                            <representedOrganization>
+                                                <id nullFlavor="UNK" root="5f6d0aa3-e207-43a6-8c64-e5d90a759808"/>
+                                                <name>GA - United Musculoskeletal Partners</name>
+                                            </representedOrganization>
+                                        </assignedAuthor>
+                                    </author>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id root="7a6905f3-6dee-4f8e-96d3-9f1743730706"/>
+                                    <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LONIC" displayName="Body mass index (BMI)"/>
+                                    <text>
+                                        <reference value="#vital2"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20211217"/>
+                                    <value unit="kg/m2" value="30.9" xsi:type="PQ"/>
+                                    <author>
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                        <time value="20211217133011-0500"/>
+                                        <assignedAuthor>
+                                            <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                            <assignedPerson>
+                                                <name>
+                                                    <given>Eric Morey</given>
+                                                    <family>Morey</family>
+                                                </name>
+                                            </assignedPerson>
+                                            <representedOrganization>
+                                                <id nullFlavor="UNK" root="0e6a1245-ca76-479b-bc04-334093de8408"/>
+                                                <name>GA - United Musculoskeletal Partners</name>
+                                            </representedOrganization>
+                                        </assignedAuthor>
+                                    </author>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id root="01e6ffd8-f6b6-4650-b7c2-418009466640"/>
+                                    <code code="29463-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LONIC" displayName="Body weight"/>
+                                    <text>
+                                        <reference value="#vital3"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20211217"/>
+                                    <value unit="g" value="89357.7" xsi:type="PQ"/>
+                                    <author>
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                        <time value="20211217133011-0500"/>
+                                        <assignedAuthor>
+                                            <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                            <assignedPerson>
+                                                <name>
+                                                    <given>Eric Morey</given>
+                                                    <family>Morey</family>
+                                                </name>
+                                            </assignedPerson>
+                                            <representedOrganization>
+                                                <id nullFlavor="UNK" root="21a931e1-c2ca-4015-890f-52e28100d4e1"/>
+                                                <name>GA - United Musculoskeletal Partners</name>
+                                            </representedOrganization>
+                                        </assignedAuthor>
+                                    </author>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.17"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+                    <id root="3f7ac133-15ad-4197-9299-81b655b425d2"/>
+                    <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Social History</title>
+                    <text>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <content styleCode="Bold">Smoking Status</content>
+                                    </td>
+                                    <td>Former Smoker </td>
+                                </tr>
+                                <tr>
+                                    <td ID="BirthSexInfo">Birth Sex</td>
+                                    <td>Male</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.78"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+                            <id root="afad7687-e5f9-4c1d-ba64-7ed905dd6bf3"/>
+                            <code code="72166-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Tobacco Smoking Status NHIS"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime nullFlavor="NI"/>
+                            <value code="8517006" codeSystem="2.16.840.1.113883.6.96" displayName="Former Smoker" xsi:type="CD"/>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time value="20211217133001-0500"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>Eric Morey</given>
+                                            <family>Morey</family>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="02b055b6-6692-41bd-b9c2-040ae5b03e95"/>
+                                        <name>GA - United Musculoskeletal Partners</name>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId extension="2016-06-01" root="2.16.840.1.113883.10.20.22.4.200"/>
+                            <code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Sex Assigned At Birth"/>
+                            <text>
+                                <reference value="#BirthSexInfo"/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <value code="M" codeSystem="2.16.840.1.113883.5.1" displayName="male" xsi:type="CD"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.14"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.14"/>
+                    <id root="2a6334ec-7e1e-4005-a7f3-6fec18fe1931"/>
+                    <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Functional Status</title>
+                    <text>
+        
+          None recorded.
+        
+      </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.56"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.56"/>
+                    <id root="02cc0f26-b71f-423e-92f0-fda8c58597cd"/>
+                    <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Mental Status</title>
+                    <text>
+        
+          None recorded.
+        
+      </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.15"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.15"/>
+                    <id root="0795a8df-8345-45d8-9be8-1f95ef3dcdad"/>
+                    <code code="10157-6" codeSystem="2.16.840.1.113883.6.1"/>
+                    <title>Family History</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Relationship</th>
+                                    <th>Description</th>
+                                    <th>Onset Age</th>
+                                    <th>Died of this Age</th>
+                                    <th>Resolved Age</th>
+                                    <th>Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">Mother</td>
+                                    <td styleCode="Botrule">Heart disease</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">Father</td>
+                                    <td styleCode="Botrule">Diabetes mellitus</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                                <tr>
+                                    <td styleCode="Botrule">Father</td>
+                                    <td styleCode="Botrule">History of depression</td>
+                                    <td styleCode="Botrule">55</td>
+                                    <td styleCode="Botrule">55</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule"/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.45"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.45"/>
+                            <id root="4b9b1a07-f3d8-45ff-8e4b-efbc7e1170c0"/>
+                            <statusCode code="completed"/>
+                            <subject>
+                                <relatedSubject classCode="PRS">
+                                    <code displayName="Mother" nullFlavor="NI"/>
+                                </relatedSubject>
+                            </subject>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.46"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.46"/>
+                                    <id root="ad75e5dd-119c-46a7-9d60-4a357be85b08"/>
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem">
+                                        <translation code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    </code>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime nullFlavor="NI"/>
+                                    <value code="56265001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Heart disease" xsi:type="CD"/>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.45"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.45"/>
+                            <id root="70c2acd6-e57d-4188-b88c-cdf2f13b34f9"/>
+                            <statusCode code="completed"/>
+                            <subject>
+                                <relatedSubject classCode="PRS">
+                                    <code displayName="Father" nullFlavor="NI"/>
+                                </relatedSubject>
+                            </subject>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.46"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.46"/>
+                                    <id root="803a3aac-75cc-4ed0-9cbe-32ba038ac572"/>
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem">
+                                        <translation code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    </code>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime nullFlavor="NI"/>
+                                    <value code="73211009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diabetes mellitus" xsi:type="CD"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.46"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.46"/>
+                                    <id root="200b8e9f-7d77-4bc1-a2c6-65031bf5b9ea"/>
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem">
+                                        <translation code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    </code>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime nullFlavor="NI"/>
+                                    <value code="161469008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="History of depression" xsi:type="CD"/>
+                                    <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.31"/>
+                                            <id root="416c9870-2643-4042-8a74-2cef5b3e2d81"/>
+                                            <code code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset"/>
+                                            <statusCode code="completed"/>
+                                            <value unit="a" value="55" xsi:type="PQ"/>
+                                        </observation>
+                                    </entryRelationship>
+                                    <entryRelationship typeCode="CAUS">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.47"/>
+                                            <id root="1761fbed-aa2e-438f-bd73-06061f0af6c0"/>
+                                            <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                            <statusCode code="completed"/>
+                                            <value code="419099009" codeSystem="2.16.840.1.113883.6.96" displayName="Dead" xsi:type="CD"/>
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.39"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.39"/>
+                    <code code="11329-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Medical History</title>
+                    <text>
+      
+        No medical history recorded.
+      
+      
+    </text>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.2.1"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+                    <id root="eae4fa13-698d-4929-9060-7efd53945814"/>
+                    <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
+                    <title>Immunizations</title>
+                    <text>
+    
+      None recorded.
+      </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.22"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.22"/>
+                    <id root="e218d53a-31d1-4553-8723-2d8c0f839aa3"/>
+                    <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Past Encounters</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Encounter ID</th>
+                                    <th>Performer</th>
+                                    <th>Location</th>
+                                    <th>Encounter date</th>
+                                    <th>Diagnosis/Indication</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">4697514</td>
+                                    <td>Maurice L Goins </td>
+                                    <td>
+                                        Fayetteville Spine Center
+                            
+                                        <paragraph>1336 HIGHWAY 54 W,BLDG 400 STE B</paragraph>
+                                        <paragraph>FAYETTEVILLE, GA 30214-4574</paragraph>
+                                    </td>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule">
+                                        Pain in pelvis
+                                        <br/>
+                                        Sacroiliac joint pain
+                                        <br/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                            <id root="780a5477-7003-47f4-9cd3-8c4becfb4e29"/>
+                            <code code="72170" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT-4" displayName="PELVIS 1/2 VIEWS"/>
+                            <effectiveTime>
+                                <low value="20211217122824-0500"/>
+                                <high value="20211217142318-0500"/>
+                            </effectiveTime>
+                            <performer>
+                                <assignedEntity>
+                                    <id root="2.16.840.1.113883.4.6"/>
+                                    <addr use="WP">
+                                        <streetAddressLine>1336 HIGHWAY 54 W</streetAddressLine>
+                                        <streetAddressLine>BLDG 400 STE B</streetAddressLine>
+                                        <city>FAYETTEVILLE</city>
+                                        <state>GA</state>
+                                        <postalCode>30214-4574</postalCode>
+                                        <country>US</country>
+                                    </addr>
+                                    <telecom nullFlavor="NI"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>Maurice L Goins</given>
+                                            <family>Goins</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                                    <code codeSystem="2.16.840.1.113883.6.259" codeSystemName="Healthcare Service Location (HL7)" nullFlavor="NI"/>
+                                    <addr use="WP">
+                                        <streetAddressLine>1336 HIGHWAY 54 W</streetAddressLine>
+                                        <streetAddressLine>BLDG 400 STE B</streetAddressLine>
+                                        <city>FAYETTEVILLE</city>
+                                        <state>GA</state>
+                                        <postalCode>30214-4574</postalCode>
+                                        <country>US</country>
+                                    </addr>
+                                    <telecom nullFlavor="NI"/>
+                                    <playingEntity classCode="PLC">
+                                        <name>GA - United Musculoskeletal Partners - Fayetteville Spine Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                            <entryRelationship typeCode="RSON">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                                    <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Encounter Diagnosis"/>
+                                    <entryRelationship typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                            <id root="0085c507-5f44-4707-9b4b-ca2fa86cc458"/>
+                                            <code code="282291009" codeSystem="2.16.840.1.113883.3.88.12.3221.7.2" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                                <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                            </code>
+                                            <statusCode code="completed"/>
+                                            <effectiveTime>
+                                                <low value="20211217131011-0500"/>
+                                                <high value="20211217142308-0500"/>
+                                            </effectiveTime>
+                                            <value code="30473006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Pain in pelvis" xsi:type="CD"/>
+                                            <author>
+                                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                                <time value="20211222143659-0500"/>
+                                                <assignedAuthor>
+                                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                                    <assignedPerson>
+                                                        <name>
+                                                            <given>Maurice L Goins</given>
+                                                            <family>Goins</family>
+                                                        </name>
+                                                    </assignedPerson>
+                                                    <representedOrganization>
+                                                        <id nullFlavor="UNK" root="b46f1750-0f88-4b23-a7ff-7c72915bbf5d"/>
+                                                        <name>GA - United Musculoskeletal Partners</name>
+                                                    </representedOrganization>
+                                                </assignedAuthor>
+                                            </author>
+                                        </observation>
+                                    </entryRelationship>
+                                </act>
+                            </entryRelationship>
+                            <entryRelationship typeCode="RSON">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                                    <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Encounter Diagnosis"/>
+                                    <entryRelationship typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                            <id root="842d599e-2551-44f1-b574-6892f9bb6e11"/>
+                                            <code code="282291009" codeSystem="2.16.840.1.113883.3.88.12.3221.7.2" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                                <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                            </code>
+                                            <statusCode code="completed"/>
+                                            <effectiveTime>
+                                                <low value="20211217131011-0500"/>
+                                                <high value="20211217142308-0500"/>
+                                            </effectiveTime>
+                                            <value code="202487003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Sacroiliac joint pain" xsi:type="CD"/>
+                                            <author>
+                                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                                <time value="20211222143659-0500"/>
+                                                <assignedAuthor>
+                                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                                    <assignedPerson>
+                                                        <name>
+                                                            <given>Maurice L Goins</given>
+                                                            <family>Goins</family>
+                                                        </name>
+                                                    </assignedPerson>
+                                                    <representedOrganization>
+                                                        <id nullFlavor="UNK" root="2ec77629-5b74-491d-92b1-c4354ad4fbd0"/>
+                                                        <name>GA - United Musculoskeletal Partners</name>
+                                                    </representedOrganization>
+                                                </assignedAuthor>
+                                            </author>
+                                        </observation>
+                                    </entryRelationship>
+                                </act>
+                            </entryRelationship>
+                        </encounter>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.60"/>
+                    <id root="57ba1916-6ae8-452e-914f-33dd5827facd"/>
+                    <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals"/>
+                    <title>Goals Section</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Goal</th>
+                                    <th>Description</th>
+                                    <th>Status</th>
+                                    <th>Start Date</th>
+                                    <th>Updated by</th>
+                                    <th>Updated on</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>None Recorded</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <!-- Health Concern section -->
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.58"/>
+                    <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document"/>
+                    <title>Health Concerns Section</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Related Observation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>None Recorded</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Concern</th>
+                                    <th>Status</th>
+                                    <th>Updated by</th>
+                                    <th>Updated on</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>None Recorded</td>
+                                    <td/>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <!-- Health Concern Act  -->
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.132"/>
+                            <id root="4b66519f-2864-4aaa-83e3-c7b8b2000c18"/>
+                            <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern"/>
+                            <statusCode code="completed"/>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <!-- Advanced Directive section -->
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.21"/>
+                    <id root="fa19ffb4-e41e-4634-9eb8-460f72bfd9fc"/>
+                    <code code="42348-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Advance Directives</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Directive</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>None Recorded</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <!-- Advanced Directive Observation  -->
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.48"/>
+                            <id root="0d2d2ca5-2019-b363-01b0-001A64958C30"/>
+                            <code nullFlavor="NI"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.18"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.18"/>
+                    <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payers"/>
+                    <title>Payers</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Encounter Date</th>
+                                    <th>Sequence</th>
+                                    <th>Insurance Name</th>
+                                    <th>Policy Number</th>
+                                    <th>Policy Holder</th>
+                                    <th>Covered Member ID</th>
+                                    <th>Holder Member ID</th>
+                                    <th>Guarantor Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule">1</td>
+                                    <td styleCode="Botrule">HUMANA - GOLD PLUS (MEDICARE REPLACEMENT HMO)</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">Carl D Williams</td>
+                                    <td styleCode="Botrule">H52897547</td>
+                                    <td styleCode="Botrule"/>
+                                    <td styleCode="Botrule">Carl D Williams</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.60"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.60"/>
+                            <id root="701fba17-e45f-4305-b9ef-487351709cae"/>
+                            <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payment sources"/>
+                            <statusCode code="completed"/>
+                            <entryRelationship typeCode="COMP">
+                                <sequenceNumber value="1"/>
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.61"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.61"/>
+                                    <id root="2ab436be-1591-439d-9df5-05c5f4c2edbf"/>
+                                    <code nullFlavor="NI">
+                                        <translation code="MB" codeSystem="2.16.840.1.113883.6.255.1336" codeSystemName="X12N-1336"/>
+                                    </code>
+                                    <statusCode code="completed"/>
+                                    <performer typeCode="PRF">
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.87"/>
+                                        <assignedEntity>
+                                            <id root="3138bfd3-0943-4af5-8a0a-a63d7fd436b1"/>
+                                            <code code="PAYOR" codeSystem="2.16.840.1.113883.1.11.10416" codeSystemName="HL7RoleCode" displayName="Invoice Payor"/>
+                                            <addr use="WP">
+                                                <streetAddressLine>PO BOX 14601</streetAddressLine>
+                                                <city>LEXINGTON</city>
+                                                <state>KY</state>
+                                                <postalCode>40512-4601</postalCode>
+                                                <country nullFlavor="NI"/>
+                                            </addr>
+                                            <telecom use="WP" value="tel: (800) 457-4708"/>
+                                            <representedOrganization>
+                                                <name>HUMANA - GOLD PLUS (MEDICARE REPLACEMENT HMO)</name>
+                                                <telecom use="WP" value="tel: (800) 457-4708"/>
+                                                <addr use="WP">
+                                                    <streetAddressLine>PO BOX 14601</streetAddressLine>
+                                                    <city>LEXINGTON</city>
+                                                    <state>KY</state>
+                                                    <postalCode>40512-4601</postalCode>
+                                                    <country nullFlavor="NI"/>
+                                                </addr>
+                                            </representedOrganization>
+                                        </assignedEntity>
+                                    </performer>
+                                    <performer typeCode="PRF">
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.88"/>
+                                        <assignedEntity>
+                                            <id root="68a6e20f-5b79-436e-817e-852c30331ca3"/>
+                                            <code code="GUAR" codeSystem="2.16.840.1.113883.5.110" codeSystemName="HL7RoleClass" displayName="Guarantor"/>
+                                            <addr use="HP">
+                                                <streetAddressLine>201 Westside School Road</streetAddressLine>
+                                                <city>NEWNAN</city>
+                                                <state>GA</state>
+                                                <postalCode>30263</postalCode>
+                                                <country>USA</country>
+                                            </addr>
+                                            <telecom use="HP" value="tel: (678) 949-6799"/>
+                                        </assignedEntity>
+                                    </performer>
+                                    <participant typeCode="COV">
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.89"/>
+                                        <participantRole>
+                                            <id extension="H52897547" root="db37a4e5-c169-4feb-9c66-f716ab38f809"/>
+                                            <code code="SELF" codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7RoleCode" displayName="Self"/>
+                                            <addr use="HP">
+                                                <streetAddressLine>201 Westside School Rd</streetAddressLine>
+                                                <city>Newnan</city>
+                                                <state>GA</state>
+                                                <postalCode>30263</postalCode>
+                                                <country nullFlavor="NI"/>
+                                            </addr>
+                                        </participantRole>
+                                    </participant>
+                                    <participant typeCode="HLD">
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.90"/>
+                                        <participantRole>
+                                            <id root="a7a7ab18-fd82-42b9-8639-6a1cc88dbfa6"/>
+                                            <addr use="HP">
+                                                <streetAddressLine>201 Westside School Rd</streetAddressLine>
+                                                <city>Newnan</city>
+                                                <state>GA</state>
+                                                <postalCode>30263</postalCode>
+                                                <country nullFlavor="NI"/>
+                                            </addr>
+                                        </participantRole>
+                                    </participant>
+                                    <entryRelationship typeCode="REFR">
+                                        <act classCode="ACT" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.1.19"/>
+                                            <id root="1683404a-4ccc-4fd4-b8cb-a40fd7b82ed3"/>
+                                            <code nullFlavor="NA"/>
+                                            <entryRelationship typeCode="SUBJ">
+                                                <procedure classCode="PROC" moodCode="PRMS">
+                                                    <code nullFlavor="NA"/>
+                                                </procedure>
+                                            </entryRelationship>
+                                        </act>
+                                    </entryRelationship>
+                                </act>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.65"/>
+                    <id root="e932cadd-5f6f-4c21-a36a-59828e254f97"/>
+                    <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Notes"/>
+                    <title>Notes</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Note Type</th>
+                                    <th>Note</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="Botrule">12/17/2021</td>
+                                    <td styleCode="Botrule">
+              text/html
+            </td>
+                                    <td ID="clinicalnotes1" styleCode="Botrule">HPI Notes: Spine Reported by patient. Complaint/Problem today: No Date of injury/accident/onset of problem: Date 02/02/1999 Symptoms (Select any that apply): Back Pain; Neck Pain; Leg Pain The pain has been present for: 0.0 days; 1999.0 years Indicate pain level: Pain level today: 10/10; Level of pain on worst day: 10/10 Is the pain: Constant Is the pain: Sharp; Stabbing; Burning; Stiffness Does the pain go down the arms or legs? No Is the pain worse when: sitting; standing; walking; bending; lifting; twisting; lying down Is the pain better when: lying down Does the pain wake you up at night? Yes Signs and Symptoms experience difficulty standing for long periods of time; experience difficulty walking for a long time; If Yes: All the time minutes; experience numbness in your right leg; experience weakness in your right leg; none Medications: Yes: If Yes, select any that apply:; Pain Medication; Yes: Blood pr Have you had physical therapy? No Have you had Chiropractic care? No Have you had Home Exercises? No Have you had injections for spinal pain? No Have you had spine surgery? no Tests you have had: x ray; CT scan; MRI Injury: Did you have an injury to cause pain? If Yes, select any that apply:; Work Related?; Auto Accident?; If Yes, when? Car; No Have you had Neck Pain/Arm Numbness/Arm Weakness BEFORE this episode? No Have you had Back Pain/Leg Numbness/Leg Weakness BEFORE this episode? No Occupational History (select all that apply): Not Working; Disabled; Not working due to back/neck problems; Not working due to another health problem; Occupation: Na; Employer: Na; How long have you worked there? NaMonths ___Years</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                            <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                                <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History and physical note"/>
+                            </code>
+                            <text mediaType="text/rtf" representation="B64">
+                                            SFBJIE5vdGVzOiBTcGluZSBSZXBvcnRlZCBieSBwYXRpZW50LiBDb21wbGFpbnQvUHJvYmxlbSB0b2RheTogTm8gRGF0ZSBvZiBpbmp1cnkvYWNjaWRlbnQvb25zZXQgb2YgcHJvYmxlbTogRGF0ZSAwMi8wMi8xOTk5IFN5bXB0b21zIChTZWxlY3QgYW55IHRoYXQgYXBwbHkpOiBCYWNrIFBhaW47IE5lY2sgUGFpbjsgTGVnIFBhaW4gVGhlIHBhaW4gaGFzIGJlZW4gcHJlc2VudCBmb3I6IDAuMCBkYXlzOyAxOTk5LjAgeWVhcnMgSW5kaWNhdGUgcGFpbiBsZXZlbDogUGFpbiBsZXZlbCB0b2RheTogMTAvMTA7IExldmVsIG9mIHBhaW4gb24gd29yc3QgZGF5OiAxMC8xMCBJcyB0aGUgcGFpbjogQ29uc3RhbnQgSXMgdGhlIHBhaW46IFNoYXJwOyBTdGFiYmluZzsgQnVybmluZzsgU3RpZmZuZXNzIERvZXMgdGhlIHBhaW4gZ28gZG93biB0aGUgYXJtcyBvciBsZWdzPyBObyBJcyB0aGUgcGFpbiB3b3JzZSB3aGVuOiBzaXR0aW5nOyBzdGFuZGluZzsgd2Fsa2luZzsgYmVuZGluZzsgbGlmdGluZzsgdHdpc3Rpbmc7IGx5aW5nIGRvd24gSXMgdGhlIHBhaW4gYmV0dGVyIHdoZW46IGx5aW5nIGRvd24gRG9lcyB0aGUgcGFpbiB3YWtlIHlvdSB1cCBhdCBuaWdodD8gWWVzIFNpZ25zIGFuZCBTeW1wdG9tcyBleHBlcmllbmNlIGRpZmZpY3VsdHkgc3RhbmRpbmcgZm9yIGxvbmcgcGVyaW9kcyBvZiB0aW1lOyBleHBlcmllbmNlIGRpZmZpY3VsdHkgd2Fsa2luZyBmb3IgYSBsb25nIHRpbWU7IElmIFllczogQWxsIHRoZSB0aW1lIG1pbnV0ZXM7IGV4cGVyaWVuY2UgbnVtYm5lc3MgaW4geW91ciByaWdodCBsZWc7IGV4cGVyaWVuY2Ugd2Vha25lc3MgaW4geW91ciByaWdodCBsZWc7IG5vbmUgTWVkaWNhdGlvbnM6IFllczogSWYgWWVzLCBzZWxlY3QgYW55IHRoYXQgYXBwbHk6OyBQYWluIE1lZGljYXRpb247IFllczogQmxvb2QgcHIgSGF2ZSB5b3UgaGFkIHBoeXNpY2FsIHRoZXJhcHk/IE5vIEhhdmUgeW91IGhhZCBDaGlyb3ByYWN0aWMgY2FyZT8gTm8gSGF2ZSB5b3UgaGFkIEhvbWUgRXhlcmNpc2VzPyBObyBIYXZlIHlvdSBoYWQgaW5qZWN0aW9ucyBmb3Igc3BpbmFsIHBhaW4/IE5vIEhhdmUgeW91IGhhZCBzcGluZSBzdXJnZXJ5PyBubyBUZXN0cyB5b3UgaGF2ZSBoYWQ6IHggcmF5OyBDVCBzY2FuOyBNUkkgSW5qdXJ5OiBEaWQgeW91IGhhdmUgYW4gaW5qdXJ5IHRvIGNhdXNlIHBhaW4/IElmIFllcywgc2VsZWN0IGFueSB0aGF0IGFwcGx5OjsgV29yayBSZWxhdGVkPzsgQXV0byBBY2NpZGVudD87IElmIFllcywgd2hlbj8gQ2FyOyBObyBIYXZlIHlvdSBoYWQgTmVjayBQYWluL0FybSBOdW1ibmVzcy9Bcm0gV2Vha25lc3MgQkVGT1JFIHRoaXMgZXBpc29kZT8gTm8gSGF2ZSB5b3UgaGFkIEJhY2sgUGFpbi9MZWcgTnVtYm5lc3MvTGVnIFdlYWtuZXNzIEJFRk9SRSB0aGlzIGVwaXNvZGU/IE5vIE9jY3VwYXRpb25hbCBIaXN0b3J5IChzZWxlY3QgYWxsIHRoYXQgYXBwbHkpOiBOb3QgV29ya2luZzsgRGlzYWJsZWQ7IE5vdCB3b3JraW5nIGR1ZSB0byBiYWNrL25lY2sgcHJvYmxlbXM7IE5vdCB3b3JraW5nIGR1ZSB0byBhbm90aGVyIGhlYWx0aCBwcm9ibGVtOyBPY2N1cGF0aW9uOiBOYTsgRW1wbG95ZXI6IE5hOyBIb3cgbG9uZyBoYXZlIHlvdSB3b3JrZWQgdGhlcmU/IE5hTW9udGhzIF9fX1llYXJz
+          
+                                <reference value="#clinicalnotes1"/>
+                            </text>
+                            <statusCode code="current"/>
+                            <effectiveTime value="20211217131500-0500"/>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time value="20211222143659-0500"/>
+                                <assignedAuthor>
+                                    <id extension="1234567" root="2.16.840.1.113883.4.6"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>Maurice L Goins</given>
+                                            <family>Goins</family>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization>
+                                        <id nullFlavor="UNK" root="434b1c1d-a3af-481b-a2c7-ee98efac3354"/>
+                                        <name>GA - United Musculoskeletal Partners</name>
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
